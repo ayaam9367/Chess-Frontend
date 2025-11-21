@@ -15,7 +15,7 @@ export const Landing = () => {
                             <h1 className="text-4xl font-bold text-white">Play Chess Online on the #2 site!</h1>
                         </div>
                         <div className="mt-4 flex justify-center">
-                            <PlayButton onClick={() => { navigate('/game') }} classes = "bg-green-500 hover:bg-green-700 hover:cursor-pointer text-white font-bold text-2xl py-4 px-8 rounded">Play Online</PlayButton>
+                            <PlayButton onClick={() => { navigate('/play') }} classes="bg-green-500 hover:bg-green-700 hover:cursor-pointer text-white font-bold text-2xl py-4 px-8 rounded">Play Online</PlayButton>
                         </div>
                     </div>
                 </div>
